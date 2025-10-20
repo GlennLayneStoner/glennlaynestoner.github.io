@@ -4,33 +4,56 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Glenn Stoner — Writer. Researcher. Quantum Cowboy.</title>
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.glennstoner.com/" />
+
+  <!-- Description -->
   <meta name="description" content="Glenn Stoner — writer, researcher, quantum cowboy. Author of The Theory of Emergence: The Principle of Possibility and The Origin of Structure." />
 
-  <!-- Canonical identity -->
-  <link rel="me" href="https://orcid.org/" />
-  <link rel="me" href="https://zenodo.org/" />
-  <link rel="me" href="https://medium.com/@" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Glenn Stoner — Writer. Researcher. Quantum Cowboy." />
+  <meta property="og:description" content="Writer and independent researcher exploring the Theory of Emergence, coherence, and the origin of structure." />
+  <meta property="og:url" content="https://www.glennstoner.com/" />
+  <meta property="og:image" content="https://www.glennstoner.com/images/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- Schema.org: Person + CreativeWork -->
+  <!-- Identity links -->
+  <link rel="me" href="https://orcid.org/0009-0006-7301-2223" />
+  <link rel="me" href="https://zenodo.org/records/17317293" />
+  <link rel="me" href="https://medium.com/@thequantumcowboy" />
+  <link rel="me" href="https://github.com/GlennLayneStoner" />
+
+  <!-- Schema.org Person -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Glenn Layne Stoner",
-    "alternateName": ["Glenn Stoner", "The Quantum Cowboy"],
-    "url": "https://glennstoner.com",
-    "sameAs": [
-      "https://orcid.org/", 
-      "https://zenodo.org/", 
-      "https://medium.com/@"
-    ],
-    "jobTitle": "Independent Researcher",
+    "name": "Glenn Stoner",
+    "alternateName": ["Glenn Layne Stoner", "The Quantum Cowboy"],
+    "url": "https://www.glennstoner.com",
+    "image": "https://www.glennstoner.com/images/glenn-stoner.jpg",
+    "jobTitle": "Writer, Researcher, Quantum Theorist",
     "affiliation": {
       "@type": "Organization",
-      "name": "Independent"
+      "name": "Quantum Research Institute",
+      "url": "https://www.quantumresearchinstitute.com/"
     },
-    "knowsAbout": ["Quantum physics", "Thermodynamics", "Information theory", "Decoherence"],
-    "description": "Writer, researcher, quantum cowboy. Author of The Theory of Emergence."
+    "identifier": [{
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0009-0006-7301-2223",
+      "url": "https://orcid.org/0009-0006-7301-2223"
+    }],
+    "sameAs": [
+      "https://www.instagram.com/glenn.stoner",
+      "https://zenodo.org/records/17317293",
+      "https://medium.com/@thequantumcowboy",
+      "https://www.quantumresearchinstitute.com/",
+      "https://orcid.org/0009-0006-7301-2223",
+      "https://github.com/GlennLayneStoner"
+    ],
+    "description": "Glenn Stoner is a writer and independent researcher exploring the Theory of Emergence, quantum coherence, and the foundations of structure in physics."
   }
   </script>
 
@@ -39,7 +62,7 @@
       --bg: #0f0f10;
       --fg: #e8e8ea;
       --muted: #9c9ca3;
-      --accent: #7ee787; /* subtle green */
+      --accent: #7ee787;
       --card: #16161a;
     }
     html, body { height: 100%; }
@@ -53,29 +76,22 @@
       -moz-osx-font-smoothing: grayscale;
     }
     .wrap { max-width: 860px; margin: 0 auto; padding: 48px 20px 80px; }
-
     header { padding: 32px 0 12px; border-bottom: 1px solid #232328; margin-bottom: 28px; }
     .kicker { color: var(--muted); font-size: 14px; letter-spacing: .12em; text-transform: uppercase; }
     h1 { font-size: 40px; font-weight: 800; margin: 6px 0 10px; line-height: 1.15; }
     .tag { font-size: 18px; color: var(--muted); }
-
     .hero { margin: 36px 0 8px; }
     .hero p { font-size: 20px; margin: 0 0 8px; }
     .hero strong { color: var(--fg); }
-
     .grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
     @media (min-width: 720px) { .grid { grid-template-columns: 1fr 1fr; } }
-
     .card { background: var(--card); border: 1px solid #222227; border-radius: 16px; padding: 20px; }
     .card h3 { margin: 0 0 6px; font-size: 18px; }
     .card p { margin: 8px 0 0; color: var(--muted); }
-
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-
     .small { font-size: 14px; color: var(--muted); }
     footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #232328; }
-
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
     .pill { display: inline-block; padding: 2px 10px; border: 1px solid #2b2b31; border-radius: 999px; font-size: 12px; color: var(--muted); }
   </style>
@@ -90,23 +106,23 @@
 
     <section class="hero">
       <p><strong>The Theory of Emergence</strong> proposes that coherence is undifferentiated information potential and that reality unfolds as this potential resolves into record. It links quantum measurement, thermodynamic cost, and the origin of structure.</p>
-      <p class="small">Plain site on purpose - no fluff. If you need fancy, look elsewhere.</p>
+      <p class="small">Plain site on purpose — no fluff. If you need fancy, look elsewhere.</p>
     </section>
 
     <section class="grid" aria-label="Quick links">
       <div class="card">
         <h3>Read the work</h3>
-        <p>Preprint on Zenodo - includes <em>The Principle of Possibility</em> and <em>The Origin of Structure</em>.</p>
+        <p>Preprint on Zenodo — includes <em>The Principle of Possibility</em> and <em>The Origin of Structure</em>.</p>
         <p><a href="#" id="zenodo-link">Open on Zenodo</a></p>
       </div>
       <div class="card">
         <h3>About the idea</h3>
-        <p>Short explainer in human words - coherence as potential, measurement as resolution, Landauer as the cost of knowing.</p>
+        <p>Short explainer in human words — coherence as potential, measurement as resolution, Landauer as the cost of knowing.</p>
         <p><a href="#about">Jump to explainer</a></p>
       </div>
       <div class="card">
         <h3>Author identity</h3>
-        <p>Verified records and identifiers - ORCID, DOI trail, and profiles.</p>
+        <p>Verified records and identifiers — ORCID, DOI trail, and profiles.</p>
         <p>
           <a href="#" id="orcid-link">ORCID</a> ·
           <a href="#" id="scholar-link">Google Scholar</a> ·
@@ -122,10 +138,10 @@
 
     <section id="about" style="margin-top: 36px;">
       <h2>In one page</h2>
-      <p><strong>Coherence</strong>: undifferentiated information potential. Not a field in space - a pre-structured unity of possible outcomes.</p>
+      <p><strong>Coherence</strong>: undifferentiated information potential. Not a field in space — a pre-structured unity of possible outcomes.</p>
       <p><strong>Decoherence</strong>: resolution into record. Measurement is the act that converts potential into outcomes.</p>
-      <p><strong>Cost</strong>: resolving information produces heat. At minimum, <span class="mono">k<sub>B</sub>T ln 2</span> per unbiased bit - the Landauer bound.</p>
-      <p><strong>Claim</strong>: structure - energy, spacetime, matter - emerges as coherence resolves. The universe keeps score in entropy.</p>
+      <p><strong>Cost</strong>: resolving information produces heat. At minimum, <span class="mono">k<sub>B</sub>T ln 2</span> per unbiased bit — the Landauer bound.</p>
+      <p><strong>Claim</strong>: structure — energy, spacetime, matter — emerges as coherence resolves. The universe keeps score in entropy.</p>
       <p class="small">If that reads clean, you got the point. If not, read the preprint.</p>
     </section>
 
@@ -135,31 +151,27 @@
   </div>
 
   <script>
-  // Fill current year
-  document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('zenodo-link').href = 'https://zenodo.org/records/17317293';
+    document.getElementById('orcid-link').href = 'https://orcid.org/0009-0006-7301-2223';
+    document.getElementById('scholar-link').href = 'https://scholar.google.com/citations?user=XXXXXXXXXXX';
+    document.getElementById('rg-link').href = 'https://www.researchgate.net/profile/Glenn-Stoner';
+  </script>
 
-  // Verified links
-  document.getElementById('zenodo-link').href = 'https://zenodo.org/records/17317293';
-  document.getElementById('orcid-link').href = 'https://orcid.org/0009-0006-7301-2223';
-  document.getElementById('scholar-link').href = 'https://scholar.google.com/citations?user=XXXXXXXXXXX';
-  document.getElementById('rg-link').href = 'https://www.researchgate.net/profile/Glenn-Stoner';
-</script>
-  <!-- Default Statcounter code for Glenn Stoner
-http://www.glennstoner.com -->
-<script type="text/javascript">
-var sc_project=13176899; 
-var sc_invisible=1; 
-var sc_security="2eccdb9b"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="Web Analytics
-Made Easy - Statcounter" href="https://statcounter.com/"
-target="_blank"><img class="statcounter"
-src="https://c.statcounter.com/13176899/0/2eccdb9b/1/"
-alt="Web Analytics Made Easy - Statcounter"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
+  <!-- Statcounter -->
+  <script type="text/javascript">
+    var sc_project = 13176899; 
+    var sc_invisible = 1; 
+    var sc_security = "2eccdb9b"; 
+  </script>
+  <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript>
+    <div class="statcounter">
+      <a title="Web Analytics Made Easy - Statcounter" href="https://statcounter.com/" target="_blank">
+        <img class="statcounter" src="https://c.statcounter.com/13176899/0/2eccdb9b/1/" alt="Web Analytics Made Easy - Statcounter" referrerpolicy="no-referrer-when-downgrade" />
+      </a>
+    </div>
+  </noscript>
+  <!-- End Statcounter -->
 </body>
 </html>
